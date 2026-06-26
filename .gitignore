@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Whisper cache
+.cache/
